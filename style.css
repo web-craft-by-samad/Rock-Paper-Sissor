@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sora", serif;
+}
+body{
+    position: relative;
+    background-color: #4158D0;
+        background-image: linear-gradient(43deg, #4861dd 0%,#de79d7 46%, #FFCC70 100%);
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+    gap: 20px;
+    width: 60vw;
+    height: 60vh;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #0093E9;
+    /* background-image: linear-gradient(160deg, #17a6f9 0%, #79e7da 100%); */
+    background-image: url(/image/v4-728px-Win-at-Rock\,-Paper\,-Scissors-Step-1-Version-6.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    position: absolute;
+    top: 20%;
+    transform: translate(40%, 40%);
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+button{
+    width: 80px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 1.0rem;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color:white;
+}
+button:hover{
+    scale: 1.1;
+}
+#rock{
+    background-color:rgb(86, 88, 223);
+}
+#paper{
+    background-color: lightslategrey;
+}
+#sissors{
+    background-color: lightcoral;
+}
